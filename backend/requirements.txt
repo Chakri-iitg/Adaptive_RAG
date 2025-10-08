@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+httpx
+pinecone-client
+python-dotenv
+langchain
+langgraph
+langchain-community
+langchain-cohere
+cohere
