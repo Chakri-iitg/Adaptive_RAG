@@ -1,4 +1,4 @@
-from langchain_cohere import ChatCohere
+from langchain_community.chat_models import ChatCohere
 from utils.config import settings
 
 def get_chat_llm(model: str ="command-a-03-2025", temperature:float = 0.0):

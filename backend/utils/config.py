@@ -8,5 +8,6 @@ class Settings:
     PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
     PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME","adaptive-rag-index")
     TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+    PDF_PATH = os.getenv("PDF_PATH")
 
 settings = Settings() 

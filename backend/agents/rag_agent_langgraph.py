@@ -1,5 +1,6 @@
 from langgraph.graph import StateGraph, START, END
-from langchain.schema import Document
+# from langchain.schema import Document
+from langchain_core.documents import Document
 from typing import Any, Dict, List
 from core.retrieval import retrieve as core_retrieve
 from core.graders import (

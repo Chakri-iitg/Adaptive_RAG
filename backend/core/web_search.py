@@ -1,5 +1,5 @@
 from langchain_community.tools.tavily_search import TavilySearchResults
-from langchain.schema import Document
+from langchain_core.documents import Document
 from core.llm_client import generate_text
 def web_search(state: dict):
     question = state["question"]

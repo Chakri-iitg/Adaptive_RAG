@@ -8,6 +8,6 @@ def retrieve(state: dict):
     retriever = get_retriever(k=5)
     question = state.get("question", "")
 
-    docs = retriever.get_relevant_documents(question)
+    docs = retriever.invoke(question)
     state["documents"] = docs
     return state
